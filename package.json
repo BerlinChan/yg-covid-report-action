@@ -1,0 +1,19 @@
+{
+  "name": "yg-covid-report-action",
+  "version": "0.1.0",
+  "description": "Automatically submit the COVID-19 report sheet of ygsoft using GitHub Actions",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BerlinChan/yg-covid-report-action"
+  },
+  "author": "Berlin Chan",
+  "license": "MIT",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "dependencies": {
+    "cypress": "^5.1.0",
+    "cypress-localstorage-commands": "^1.2.2"
+  }
+}
