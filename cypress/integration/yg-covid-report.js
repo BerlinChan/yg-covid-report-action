@@ -22,7 +22,7 @@ describe("yg-covid-report-checkin", () => {
       ".main-content .content-panel .multi-type-fill-button-component:nth-child(1)"
     ).click();
     cy.get(
-      "body > div:nth-child(9) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2)"
+      "body > div:nth-child(10) > div:nth-child(1) > div:nth-child(2) > div:nth-child(3) > a:nth-child(2)"
     ).click();
     cy.get(".submit-button").click();
 
